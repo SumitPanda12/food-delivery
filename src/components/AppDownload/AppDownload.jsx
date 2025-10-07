@@ -5,7 +5,7 @@ import { assets } from "../../assets/assets";
 const AppDownload = () => {
   return (
     <div className="app-download" id="app-download">
-      <p>
+      <p class="color-blink">
         Get the best experience –<br />   download the Delicious app!
       </p>
       <div className="app-download-platforms">

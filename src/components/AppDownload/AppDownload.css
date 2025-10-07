@@ -29,3 +29,16 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* subtle shadow */
   filter: brightness(1.05); /* slight brightness effect */
 }
+
+.color-blink {
+  font-weight: bold;
+  animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #ff6b6b; }
+  25% { color: #feca57; }
+  50% { color: #1dd1a1; }
+  75% { color: #54a0ff; }
+  100% { color: #ff6b6b; }
+}

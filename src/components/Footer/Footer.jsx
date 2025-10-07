@@ -13,9 +13,9 @@ const Footer = () => {
             Delicious is your go-to food delivery platform, bringing your favorite meals from local restaurants straight to your doorstep. With a focus on speed, convenience, and great taste, we make ordering food easy and enjoyable. Whether you're craving a quick bite or planning a family dinner, Delicious delivers happiness—one meal at a time.
           </p>
           <div className="footer-social-icons">
-            <img src={assets.facebook_icon} alt="" />
-            <img src={assets.twitter_icon} alt="" />
-            <img src={assets.linkedin_icon} alt="" />
+         <a href="https://www.facebook.com/" target="_blank"> <img src={assets.facebook_icon} alt="facebook"/></a>   
+          <a href="https://www.twitter.com/" target="_blank"> <img src={assets.twitter_icon} alt="twitter" /></a> 
+           <a href="https://www.linkedin.com/" target="_blank"><img src={assets.linkedin_icon} alt="linkedin" /></a> 
           </div>
         </div>
         <div className="footer-content-center">
